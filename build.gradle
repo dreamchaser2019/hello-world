@@ -1,0 +1,12 @@
+    apply plugin: 'war'
+
+    //Adds directories css and jsp to root of WAR file archive
+    war {
+    from 'webapp'
+    }
+
+    //Identifies project¡¯sversion through a number scheme
+    version = 1.0
+
+    //Sets Java version compilation compatibility to 1.7
+    sourceCompatibility = 1.7
